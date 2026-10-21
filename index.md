@@ -18,6 +18,31 @@ The OCI8 implementation is complete, including parameter binding, statement exec
 - [Pull request #209](https://github.com/lunarmodules/luasql/pull/209)
 - [LuaSQL repository](https://github.com/lunarmodules/luasql)
 
+
+## Project Demo
+
+Here's a short walkthrough of my GSoC 2026 project, demonstrating
+prepared statement execution in LuaSQL's OCI8 driver.
+
+<p align="center">
+  <a href="https://youtu.be/phnK7mW26UM">
+    <img
+      src="https://img.youtube.com/vi/phnK7mW26UM/maxresdefault.jpg"
+      alt="Watch the LuaSQL prepared statements demo on YouTube"
+      width="800"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/phnK7mW26UM">
+    <strong>▶ Watch the demo on YouTube</strong>
+  </a>
+</p>
+
+---
+
+
 ## The Problem
 
 LuaSQL already provides an interface for executing SQL statements and retrieving query results. The goal of this project was to add prepared statements with parameter binding through a consistent API.
@@ -164,7 +189,7 @@ The current implementation and API design are documented in [issue #207](https:/
 
 Working with LabLua was a great learning experience. The project gave me the opportunity to work on C code, Oracle's OCI API, database driver internals, resource ownership, and API design in an established open-source project.
 
-A special thanks to **Tomás Guisasola** for his patient mentorship and **Thijs Schreijer (Tieske)** for the detailed code reviews and feedback. Their guidance helped me think more carefully about design decisions, error handling, and maintainability.
+A special thanks to **Tomás Guisasola** for his patient mentorship, **Thijs Schreijer (Tieske)** and **Lourival Vieira Neto** for their guidance, detailed code reviews, and feedback throughout this project. Their guidance helped me think more carefully about design decisions, error handling, and maintainability.
 
 I'm grateful to the LabLua and LuaSQL community for the opportunity to contribute and learn through Google Summer of Code 2026.
 
