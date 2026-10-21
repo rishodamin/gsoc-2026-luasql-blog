@@ -27,7 +27,7 @@ prepared statement execution in LuaSQL's OCI8 driver.
 <p align="center">
   <a href="https://youtu.be/phnK7mW26UM">
     <img
-      src="https://img.youtube.com/vi/phnK7mW26UM/maxresdefault.jpg"
+      src="https://img.youtube.com/vi/phnK7mW26UM/hqdefault.jpg"
       alt="Watch the LuaSQL prepared statements demo on YouTube"
       width="800"
     />
